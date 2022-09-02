@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.navbar .container,
+.navbar .container-fluid,
+.navbar .container-lg,
+.navbar .container-md,
+.navbar .container-sm,
+.navbar .container-xl,
+.navbar .container-xxl {
+  flex-wrap: nowrap; }
+
+.navbar img {
+  width: 15vw; }
+
+.navbar .menu a:hover {
+  background-color: #e0e0e0; }
+
+.navbar-expand-md .navbar-collapse {
+  justify-content: space-around; }
+
+main {
+  height: auto;
+  background-color: rgba(97, 144, 151, 0.603); }
+  main .padre {
+    width: 50vw;
+    margin: 0 auto; }
+
+.footer {
+  height: 100px;
+  background-color: #e0e0e0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .footer .iconos {
+    display: flex; }
+    .footer .iconos .redes li {
+      display: flex;
+      list-style-type: none;
+      padding: 20px; }
+      .footer .iconos .redes li a img {
+        height: 4rem; }
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+  padding: 20px; }
+
+.row {
+  justify-content: space-evenly;
+  padding: 20px 0px; }
+  .row .card {
+    margin: 15px;
+    align-items: center; }
+    .row .card img {
+      height: 15rem;
+      width: 15rem;
+      margin-top: 20px; }
+
+.row .formu {
+  left: 30px;
+  margin: 0 auto; }
